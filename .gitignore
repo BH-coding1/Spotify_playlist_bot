@@ -1,0 +1,47 @@
+# Python-specific
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+*.egg
+*.so
+
+# Virtual environment
+/venv/
+/env/
+/.venv/
+.env
+
+# OS and editor files
+.DS_Store
+*.swp
+.vscode/
+.idea/
+
+# Build and distribution
+/build/
+/dist/
+*.log
+
+# Testing and coverage
+/htmlcov/
+/.tox/
+*.coverage
+coverage.xml
+
+# Database files
+*.sqlite
+*.sqlite3
+*.db
+
+# Other
+*.manifest
+*.spec
+pip-log.txt
+pip-delete-this-directory.txt
+docs/_build/
+.spyderproject
+.spyproject
+*.ipynb_checkpoints
+.mypy_cache/
